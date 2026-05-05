@@ -4,36 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="sidebar">
-            <h2> 90 day launch circle</h2>
         </div>
-        <div class="form-side"> <h1>Still clocking in for someone else's dream?</h1>
+        <div class="form-side"> 
+            <p>Still clocking in for someone else's dream?</p>
             <p>The 90-Day Launch Circle was built for 9-to-5 workers who are ready to finally 
                 bet on themselves and build something of their own. </p>
                 <p>Apply now and let's get you started. </p>
-                <p><em>You know you're ready.</em></p>
+                <p class="ready">You <em>know</em> you're ready.</p>
                 <form>
             <div class="form-row"> 
                 <h3>Let's do this!</h3>
-                <label for="full-name"> Full name</label>
-                <input id="full-name" type="text">
-                <label for="email-address"> Email adress</label>
-                <input id="email-address" name="email" type="email" placeholder="yusuf@gmail.com">
-                <label for="phone-no"> phone number</label>
-                <input id="phone-no" type="number">
-                <label for="current-job"> Current job/industry</label>
-                <input id="current-job" type="text">
-                <label for="biggest-challenge"> What is your biggest challenge right no?</label>
-                <input id="biggest-challenge" type="text">
-                <label for="about-us"> How did you hear about us</label>
-                <input id="about-us" type="text">
+                <div> <label for="full-name"> Full name</label>
+                 <input id="full-name" type="text"> </div>
+                <div> <label for="email-address"> Email adress</label>
+                <input id="email-address" name="email" type="email" class="email-input"> </div>
+                <div> <label for="phone-no"> phone number</label>
+                <input id="phone-no" type="text"> </div>
+                <div> <label for="current-job"> Current job/industry</label>
+                <input id="current-job" type="text"> </div>
+                <div> <label for="biggest-challenge"> What is your biggest challenge right now?</label>
+                <input id="biggest-challenge" type="text"> </div>
+                <div> <label for="about-us"> How did you hear about us</label>
+                <input id="about-us" type="text"> </div>
             </div>
             </form>
-             <button> Join the circle</button>  
+             <button type="submit"> Join the circle</button>  
         </div>
     </div>
 </body>
